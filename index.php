@@ -816,13 +816,7 @@ if($element_number != $conteggio-1) {
 }
 ';	
 	
-echo "?&gt;
-</code></pre>";	
-echo "</div>";	
-//}
-
-	
-
+echo "?&gt;";	
 
 }
 		

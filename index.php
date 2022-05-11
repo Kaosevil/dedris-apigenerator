@@ -240,8 +240,8 @@ if ($_GET["opt"] == "lost_password_verify") {
 		$result = mysqli_fetch_assoc($exec);			
 			
 		// Invio l\'email con la nuova password
-		$from_mail = "server@lascomail.com";
-		$from_name = "StudioEuropa";
+		$from_mail = "server@mailserver.com";
+		$from_name = "ProjectName";
 		$to_email_recipient = $result["user_email"]; //indirizzo@dominio.it 
 		$email_subject = "Procedura recupero password completata";
 			

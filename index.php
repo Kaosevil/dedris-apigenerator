@@ -6,9 +6,9 @@ if (empty($_POST)) {
 ?>
 <html>
 <head>
-<title>Dedris Api Generator v1.00</title>
+<title>Dedris REST-Api Generator v1.00</title>
 <form action="index.php" method="POST">
-<h1>Dedris Api Generator v1.00</h1>
+<h1>Dedris REST-Api Generator v1.00</h1>
 <label>DB HOST</label>
 <input name="db_host">
 <br>

@@ -1,4 +1,4 @@
-# Dedris REST-Api Genererator from MySql
+# Dedris REST-Api Generator from MySql
 
 Generate REST API from MySql, with PHP in 1 Click
 

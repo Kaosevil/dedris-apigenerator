@@ -2,7 +2,7 @@
 //ini_set('display_errors', '1');
 //ini_set('display_startup_errors', '1');
 //error_reporting(E_ALL);
-if (empty($_POST) {
+if (empty($_POST)) {
 ?>
 <html>
 <head>
@@ -299,6 +299,7 @@ if ($_GET["opt"] == "lost_password_verify") {
 	
 // Feedback
 echo json_encode($data_array);		
+
 }
 
 
@@ -814,12 +815,12 @@ if($element_number != $conteggio-1) {
 	}
 }
 ';	
-}	
+	
 echo "?&gt;
 </code></pre>";	
 echo "</div>";	
 //}
-}	
+}
 	
 
 

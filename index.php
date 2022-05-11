@@ -8,7 +8,7 @@ if (empty($_POST)) {
 <head>
 <title>Dedris Api Generator v1.00</title>
 <form action="index.php" method="POST">
-
+<h1>Dedris Api Generator v1.00</h1>
 <label>DB HOST</label>
 <input name="db_host">
 <br>
